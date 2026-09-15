@@ -26,18 +26,20 @@
       "output": "static",
       "favicon": "./assets/Hestia.png"
     },
+    "extra": {
+      "firebaseApiKey": "AIzaSyDg6Ynf2X31elffRqvRLFGZSZ4mId6EUok",
+      "firebaseAuthDomain": "hestia-4b665.firebaseapp.com",
+      "firebaseProjectId": "hestia-4b665",
+      "firebaseStorageBucket": "hestia-4b665.firebasestorage.app",
+      "firebaseMessagingSenderId": "1011637769048",
+      "firebaseAppId": "1:1011637769048:web:99bfb56f36025bd8ff8b2d"
+    },
     "plugins": [
       "expo-router",
       "@react-native-community/datetimepicker"
     ],
     "experiments": {
       "typedRoutes": true
-    },
-    "extra": {
-      "router": {},
-      "eas": {
-        "projectId": "603eadea-cef3-46eb-acb9-bcc1f2d5bade"
-      }
     }
   }
 }
